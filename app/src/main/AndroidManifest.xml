@@ -18,10 +18,10 @@
         </activity>
 
         <receiver
-            android:name=".SampleBroadcastReceiver"
+            android:name=".ServerBroadcastReceiver"
             android:process=":sample" >
             <intent-filter>
-                <action android:name="com.example.android.intent.action.SAMPLE" />
+                <action android:name="com.example.android.intent.action.HELLO" />
             </intent-filter>
         </receiver>
 
